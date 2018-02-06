@@ -38,20 +38,24 @@
             android:id="@+id/website"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:autoLink="web"
             android:gravity="center"
             android:padding="@dimen/padding"
             android:text="@string/website"
             android:textColor="@color/textColor"
+            android:textColorLink="@color/textColor"
             android:textSize="@dimen/text_size_20" />
 
         <TextView
             android:id="@+id/phone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:autoLink="phone"
             android:gravity="center"
             android:padding="@dimen/padding"
             android:text="@string/number"
             android:textColor="@color/textColor"
+            android:textColorLink="@color/textColor"
             android:textSize="@dimen/text_size_20" />
 
         <TextView
